@@ -5,3 +5,12 @@ for(let i =0 ; i<256;i++){
   container.appendChild(divx);
   divx.classList.add("divSquare");
 }
+
+const divs = document.querySelectorAll('.divSquare');
+divs.forEach(
+    (di)=>{di.addEventListener('mouseover',
+    ()=>{di.classList.add('hovered')}
+    );
+
+    }
+)
