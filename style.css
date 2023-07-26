@@ -1,10 +1,10 @@
 *{
     margin: 0px;
+  
 }
 .container {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-evenly;*/
     max-width: 832px;
     max-height: 832px;
     background-color:rgb(221, 181, 129);
