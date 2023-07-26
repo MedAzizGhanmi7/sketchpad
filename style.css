@@ -24,4 +24,9 @@
     background-color: blueviolet;
 
 }
-
+.btn {
+    padding: 20px 40px;
+    margin:20px ;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
