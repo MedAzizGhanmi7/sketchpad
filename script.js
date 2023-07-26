@@ -14,7 +14,7 @@ function removeOldGrid() {
 }
 
 function newGrid() {
-  for (let i = 0; i < side * side; i++) {
+  for (let i = 0; i < (side * side); i++) {
     const divx = document.createElement('div');
     container.appendChild(divx);
     divx.classList.add('divSquare');
@@ -39,14 +39,15 @@ change.addEventListener('click', () => {
 });
 
 function calculate(num) {
-  const w = 800;
-  return w / num;
+  const w = 832;
+  return (w / num);
 }
 
 function setGrid(grid) {
   const grids = document.querySelectorAll('.divSquare');
   grids.forEach((gr) => {
-    gr.style.height = grid + 'px';
-    gr.style.width = grid + 'px';
+    gr.style.height = grid+ 'px';
+    gr.style.width = grid+ 'px';
   });
 }
+
